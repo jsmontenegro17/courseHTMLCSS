@@ -1,0 +1,7 @@
+.text-container{
+    font-size: 1.5em;
+}
+
+.text-container div{
+     font-size: 1.5em; /*em toma el tamaño de letra de su padre y se multiplica segun el valor de em */
+}

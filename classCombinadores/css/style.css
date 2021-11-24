@@ -1,0 +1,21 @@
+/* aplicale estos estilo a todas las etiquitas p que esten cerca de h2; hermano cercano*/
+h2 + p {
+    color: red;
+}
+
+
+/* aplicale estos estilo a todas las etiquitas p que tengan un hermano en general*/
+h2 ~ h3 {
+    color: yellow;
+}
+
+/* de la etiqueta p que sea hija directa de una etiqueta div */
+
+div > p {
+    color: red;
+}
+
+/* desendiente, todas las etiqueta p que esten en una etiquete div se aplicaran los estilos  */
+div p {
+    color: yellow;
+}
