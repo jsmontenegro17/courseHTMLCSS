@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: peru;
+    width: 100%;
+    height: 40px;
+}
+
+figure img {
+    margin-right: 10px;
+    height: 40px;
+    position: absolute ;
+}
+
+.nav{
+    text-align: right;
+    list-style: none;
+}
+
+.nav li{
+    display: inline-block;
+    padding: 10px;
+    padding-right: 15px;
+
+}
+
+main{
+    display: inline-flex;
+    width: 100%;
+    background-color: yellow;
+}
+
+main aside{
+    height: 530px;
+    width: 30%;
+    padding: 10px;
+    background-color: purple;
+}
+
+main aside .news{
+    
+    margin: 10px;
+    margin-top: 40px;
+    background-color: rebeccapurple;
+    width: 90%;
+    height: 120px;
+    border-radius: 20px;
+}
+
+main div{
+    display: inline-block;
+    background-color: blue;
+    padding: 20px;
+    width: 70%;
+
+}
+
+footer{
+    padding-top: 15px;
+    text-align: center;
+    width: 100%;
+    height: 45px;
+    background-color: yellow;
+}
+
+
